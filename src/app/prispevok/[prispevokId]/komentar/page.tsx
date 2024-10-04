@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 
 export const metadata = { title: "Zoznam komentárov | ZoškaSnap" };
 
-export default function CommentsList() {
+export default function PostCommentsList() {
 
   return (
 
