@@ -31,8 +31,6 @@ export default function Navbar() {
         <BottomNavigationAction label="Domov" value="/" icon={<HomeIcon />} />
         <BottomNavigationAction label="Profily" value="/profil" icon={<AccountCircleIcon />} />
         <BottomNavigationAction label="Príspevky" value="/prispevok" icon={<AddCircleIcon />} />
-        <BottomNavigationAction label="Prihlásenie" value="/auth/prihlasenie" icon={<LoginIcon />} />
-        <BottomNavigationAction label="Registrácia" value="/auth/registracia" icon={<AppRegistrationIcon />} />
       </BottomNavigation>
     </Box>
   );
