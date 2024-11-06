@@ -1,5 +1,4 @@
-
-// /src/components/Navbar.tsx
+// src/components/NavBar.tsx
 
 "use client";
 
@@ -13,7 +12,7 @@ import GavelIcon from '@mui/icons-material/Gavel';
 
 import { useRouter } from 'next/navigation';
 
-export default function Navbar() {
+export default function NavBar() {
   const [value, setValue] = React.useState('/');
   const router = useRouter();
 

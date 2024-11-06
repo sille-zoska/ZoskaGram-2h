@@ -1,16 +1,12 @@
-Assignment: Build a Basic Next.js App with Material UI Menu component
+Assignment: Build a Basic Next.js app using App Router with Material UI Menu components
 
-Objective: Your task is to create a simple Next.js app with basic routing via Material UI Menu component. You will set up Git and a GitHub repository to manage your version control. The app will not include any authentication.
+Objective: Your task is to create a simple Next.js app with basic routing using App Router via Material UI Menu component. You will set up Git and a GitHub repository to manage your version control. The app will not include any authentication.
 Assignment Tasks:
 
     Initialize a Next.js App:
-        Create a new Next.js project in your /YourOneDrive folder named pisomka1-meno-priezvisko.
+        Run: npm install -g npm@10.9.0
+        Create a new Next.js project named: pisomka1-meno-priezvisko with: npx create-next-app@14.2.11 in your /YourOneDrive or /Dokumenty folder .
         Set up the app with basic routing and a clean project structure.
-
-    Set up Git and GitHub:
-        Initialize a Git repository for your project.
-        Make regular commits with meaningful commit messages.
-        Push your project to a new GitHub repository named pisomka1-meno-priezvisko.
 
     Create the Required Pages:
         Home Page (/): Display a welcome message and a link to the About page.
@@ -21,7 +17,12 @@ Assignment Tasks:
     Material UI Integration:
         Use Material UI to style the app, including form elements and buttons.
         Implement a simple navigation menu using Material UI’s Menu component.
-        Ensure that the Menu has links to the Home, About, Contact, and Posts pages.
+        Ensure that the Menu has links to the Domov, O nas, Kontakt, and Prispevky pages.
+
+    Set up Git and GitHub:
+        Initialize a Git repository for your project.
+        Make regular commits with meaningful commit messages.
+        Push your project to a new GitHub repository named pisomka1-meno-priezvisko.
 
     Set up Vercel Deployment:
         Deploy your app to Vercel.
