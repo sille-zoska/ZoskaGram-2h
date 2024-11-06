@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', position: 'fixed', bottom: 0 }}>
       <BottomNavigation
         showLabels
         value={value}
@@ -33,7 +33,6 @@ export default function Navbar() {
         <BottomNavigationAction label="Profily" value="/profil" icon={<AccountCircleIcon />} />
         <BottomNavigationAction label="Príspevky" value="/prispevok" icon={<AddCircleIcon />} />
         <BottomNavigationAction label="O nás" value="/o-nas" icon={<InfoIcon />} />
-        <BottomNavigationAction label="Podmienky" value="/o-nas" icon={<GavelIcon />} />
       </BottomNavigation>
     </Box>
   );
