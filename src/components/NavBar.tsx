@@ -7,9 +7,10 @@ import * as React from 'react';
 import { BottomNavigation, BottomNavigationAction, Box } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import AddCircleIcon from '@mui/icons-material/AddCircle';
-import LoginIcon from '@mui/icons-material/Login';
-import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
+import AddCircleIcon from '@mui/icons-material/AddCircle'
+import InfoIcon from '@mui/icons-material/Info';
+import GavelIcon from '@mui/icons-material/Gavel';
+
 import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
@@ -31,6 +32,8 @@ export default function Navbar() {
         <BottomNavigationAction label="Domov" value="/" icon={<HomeIcon />} />
         <BottomNavigationAction label="Profily" value="/profil" icon={<AccountCircleIcon />} />
         <BottomNavigationAction label="Príspevky" value="/prispevok" icon={<AddCircleIcon />} />
+        <BottomNavigationAction label="O nás" value="/o-nas" icon={<InfoIcon />} />
+        <BottomNavigationAction label="Podmienky" value="/o-nas" icon={<GavelIcon />} />
       </BottomNavigation>
     </Box>
   );
