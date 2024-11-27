@@ -12,6 +12,7 @@
 3. VsCode:
     In .env replace value of DATABASE_URL
     .env
+    create app/api/prisma.ts
     package.json:   "build": "prisma generate && next build",
                     "postinstall": "prisma generate"
 
